@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do list</title>
+    <link rel="stylesheet" href="./sources/style.css" />
+    <link rel="stylesheet" href="./sources/normalize.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-header">
+        <span class="header">Список задач</span>
+        <div class="main_add-panel">
+          <div class="add-panel_add-button" id="addButton">
+            <span class="horizontal-bar"></span
+            ><span class="vertical-bar"></span>
+          </div>
+          <div class="add-panel_add-label">Добавить</div>
+        </div>
+      </div>
+      <div class="main-body">
+        <div class="body-task">
+          <div class="task_info-panel">
+            <label for="task-status" class="task-name">
+            <input type="checkbox" class="task-status" id = "task-status" />
+            Задача 1
+          </label>
+            <span>
+              <img src="./sources/highpriority.png" id = "deleteButton">
+          </span>
+          </div>
+              <button onclick = "parentNode.remove()"  class ="deleteButton" />
+        </div>  
+      </div>
+    </div>
+    <div class="oppacity hide"></div>
+    <div class="dialogue-window hide">
+      <span class="dialogue-window_header">Карточка задачи</span>
+      <span class="dialogue-window_task">Задача</span>
+      <input type="text" id="task-description" placeholder="Описание задачи" />
+      <label for="prioritize" class="dialogue-window_task-priority">
+        <input type="checkbox" name="task-priority" id="prioritize" />
+        Высокий приоритет<img
+          src="./sources/highpriority.png"
+          class="dialogue-window_img"
+      /></label>
+      <div class="dialogue-window_group-button">
+        <div class="group-button_apply-button" id="saveButton">Сохранить</div>
+        <div class="group-button_cancel-button" id="undoButton">Отменить</div>
+      </div>
+    </div>
+    <script src="./sources/script.js"></script>
+  </body>
+</html>
