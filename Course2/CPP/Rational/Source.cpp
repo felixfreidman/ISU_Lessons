@@ -3,8 +3,6 @@
 
 using namespace std;
 
-// Example of input: 5/12
-// "5 12" will be recieved as 5/1 and 12/1 !
 
 int main() 
 {

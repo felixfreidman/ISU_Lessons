@@ -4,6 +4,8 @@
 
 using namespace std;
 
+// Ищет первое просто число в дробной части экспоненты 
+
 bool is_prime(long long int n) {
 	if (n <= 1) {
 		return false;

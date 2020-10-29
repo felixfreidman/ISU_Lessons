@@ -5,6 +5,8 @@
 #include <string>
 #include <ctime>
 
+// использование длинной арифметики
+// Генерация числа Е
 using namespace std;
 
 typedef unsigned long long int ull;
