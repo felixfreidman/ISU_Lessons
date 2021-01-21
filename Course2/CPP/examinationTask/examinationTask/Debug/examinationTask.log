@@ -1,0 +1,4 @@
+﻿  examinationTask.cpp
+c:\users\феликс\source\repos\examinationtask\examinationtask\examinationtask.cpp(70): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\феликс\source\repos\examinationtask\examinationtask\examinationtask.cpp(106): warning C4018: <: несоответствие типов со знаком и без знака
+  examinationTask.vcxproj -> C:\Users\Феликс\source\repos\examinationTask\Debug\examinationTask.exe
